@@ -143,7 +143,6 @@ a:visited {
   text-decoration: none;
   padding-bottom: 1px;
   /* border-bottom: 1px solid #e67e22; */
-  -webkit-transition: border-bottom 0.2s, color 0.2s;
   transition: border-bottom 0.2s, color 0.2s;
 }
 
