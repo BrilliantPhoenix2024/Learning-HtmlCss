@@ -31,12 +31,17 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="sticky">
         <div class="row">
           <img
             src="./resources/img/logo-white.png"
             alt="OmniFood logo"
             class="logo"
+          />
+          <img
+            src="./resources/img/logo.png"
+            alt="OmniFood logo"
+            class="logo-black"
           />
 
           <ul class="main-nav">
@@ -634,6 +639,9 @@
     <script src="./vendors/js/html5shiv.js"></script>
     <script src="./vendors/js/selectivizr.js"></script>
 
+    <!-- scripts for jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
     <!-- ionicons scripts setup -->
     <script
       type="module"
@@ -643,5 +651,8 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <!-- main script -->
+    <script src="./resources/js/script.js"></script>
   </body>
 </html>
