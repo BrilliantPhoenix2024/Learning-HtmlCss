@@ -12,11 +12,57 @@ Mid: #5aaa9d
   box-sizing: border-box;
 }
 
-html,
 body {
   color: #444;
   font-family: 'Roboto', sans-serif;
-  padding: 100px;
+  font-size: 400;
+  padding: 50px;
   background: linear-gradient(to bottom right, #67b26f, #4ca2cd);
   height: 100vh;
+  display: flex;
+  /* CROSS AXIS = align-item */
+  align-items: center;
+  /* MAIN AXIS = justify-content */
+  justify-content: center;
+}
+
+.pizza {
+  max-width: 800px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: stretch;
+}
+
+.pizza__hero {
+  /* flex-basis: 45%;
+  flex-shrink: 0;
+  flex-grow: 0;
+ */
+  flex: 0 0 45%;
+}
+
+.pizza__img {
+  width: 100%;
+  /* always set the display od img to 'block' */
+  display: block;
+}
+
+.pizza__content {
+  /* flex-grow: 1; */
+  flex: 1;
+  background: white;
+}
+
+.pizza__price {
+  /* align-self: center; */
+  background: linear-gradient(to bottom, #67b26f, #4ca2cd);
+  flex: 0 0 50px;
+  writing-mode: vertical-rl;
+  color: white;
+  font-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
