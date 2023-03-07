@@ -10,6 +10,7 @@
   clear: both;
 }
 
+/* For inheritance all Elements */
 body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 18px;
