@@ -28,6 +28,10 @@ h2 {
   color: #fff;
 }
 
+#metto {
+  color: #00ff00;
+}
+
 .main-text {
   text-align: justify;
   margin-bottom: 20px;
@@ -53,6 +57,12 @@ h2 {
   float: left;
   padding-right: 30px;
   position: relative;
+}
+
+.link-udemy {
+  color: blue;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .other-post {
