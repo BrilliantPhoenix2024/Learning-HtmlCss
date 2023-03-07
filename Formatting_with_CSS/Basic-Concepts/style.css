@@ -66,8 +66,9 @@ h2 {
   text-decoration: none;
 }
 
-.blog-post a{
- margin-right: 250px;
+/* Combinators: + , ~ , > */
+h2 ~ a {
+  margin-right: 250px;
 }
 
 .other-post {
