@@ -66,6 +66,10 @@ h2 {
   text-decoration: none;
 }
 
+.blog-post a{
+ margin-right: 250px;
+}
+
 .other-post {
   width: 25%;
   float: left;
