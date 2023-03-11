@@ -30,7 +30,11 @@ h2 {
 }
 
 #metto {
-  color: #00ff00;
+  color: #fff;
+  background-color: #ff1b68;
+  padding: 20px;
+  border: 5px solid rgb(16, 16, 16);
+  margin: 20px;
 }
 
 .main-text {
