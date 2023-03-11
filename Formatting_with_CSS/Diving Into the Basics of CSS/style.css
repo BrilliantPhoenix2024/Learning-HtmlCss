@@ -1,3 +1,5 @@
+/* In margin Collapsing, the bigger Margin win and also every Element has default margin  */
+/* This for removing default margins */
 * {
   margin: 0;
   padding: 0;
