@@ -18,6 +18,12 @@ body {
   font-size: 18px;
 }
 
+.main-header {
+  background-color: #2ddf5d;
+  padding: 20px 30px;
+  width: 100%;
+}
+
 h1 {
   /* color: green; */
   color: #00ff00;
@@ -35,8 +41,7 @@ h2 {
   color: #fff;
   background-color: #ff1b68;
   padding: 20px;
-  border: 5px solid rgb(16, 16, 16);
-  margin: 20px; 
+
   width: 60%;
   height: 68px;
 }
