@@ -1,0 +1,121 @@
+/* In margin Collapsing, the bigger Margin win and also every Element has default margin  */
+/* This for removing default margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* For inheritance all Elements */
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.main-header {
+  background-color: #2ddf5d;
+  padding: 20px 30px;
+  width: 100%;
+}
+
+.main-nav__item {
+  display: inline-block;
+}
+
+h1 {
+  /* color: green; */
+  color: #00ff00;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#metto {
+  color: #fff;
+  background-color: #ff1b68;
+  padding: 20px;
+
+  width: 60%;
+  height: 68px;
+}
+
+.main-text {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+#author-name {
+  font-size: 22px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.container {
+  width: 1140px;
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px; */
+  margin: 20px auto 0 auto;
+}
+
+.blog-post {
+  width: 75%;
+  float: left;
+  padding-right: 30px;
+  position: relative;
+}
+
+.link-udemy {
+  color: blue;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Combinators: + , ~ , > */
+h2 ~ a {
+  margin-right: 250px;
+}
+
+.other-post {
+  width: 25%;
+  float: left;
+}
+
+.author-box {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
+
+.other {
+  margin-bottom: 40px;
+}
+
+.author-box img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+}
+
+.blog-post img {
+  height: 150px;
+  width: auto;
+}
+
+.date {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
