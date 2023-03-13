@@ -66,6 +66,16 @@ body {
   color: white;
 }
 
+.main-nav__item a::after {
+  content: ' (after)';
+  color: red;
+}
+
+.main-nav__item a::before {
+  content: ' (before)';
+  color: yellow;
+}
+
 h1 {
   /* color: green; */
   color: #00ff00;
@@ -90,6 +100,11 @@ h2 {
 .main-text {
   text-align: justify;
   margin-bottom: 20px;
+}
+
+.main-text::first-letter {
+  color: rgb(154, 218, 18);
+  font-size: 25px;
 }
 
 #author-name {
