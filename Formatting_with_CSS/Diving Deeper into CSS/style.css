@@ -48,6 +48,14 @@ body {
 
 .main-nav__item {
   display: inline-block;
+  margin: 0 18px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e4f1f;
 }
 
 h1 {
