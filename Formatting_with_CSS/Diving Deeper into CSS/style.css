@@ -54,13 +54,15 @@ body {
 .main-nav__item a {
   text-decoration: none;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: bold;
   color: #0e4f1f;
+  padding: 5px 0;
 }
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
   color: white;
+  border-bottom: 2px solid white;
 }
 
 /* .main-nav__item a::after,
