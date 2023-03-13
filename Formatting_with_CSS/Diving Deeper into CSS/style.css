@@ -53,9 +53,17 @@ body {
 
 .main-nav__item a {
   text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 400;
   color: #0e4f1f;
+}
+
+.main-nav__item a:hover {
+  color: white;
+}
+
+.main-nav__item a:active {
+  color: white;
 }
 
 h1 {
@@ -75,7 +83,6 @@ h2 {
   color: #fff;
   background-color: #ff1b68;
   padding: 20px;
-
   width: 60%;
   height: 68px;
 }
