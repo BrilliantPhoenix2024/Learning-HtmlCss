@@ -100,7 +100,6 @@ h2 {
 
 #metto {
   color: #fff;
-  background-color: #ff1b68;
   padding: 20px;
   width: 60%;
   height: 68px;
@@ -109,6 +108,8 @@ h2 {
 .main-text {
   text-align: justify;
   margin-bottom: 20px;
+  color: blueviolet;
+  font-size: 18px;
 }
 
 .main-text::first-letter {
