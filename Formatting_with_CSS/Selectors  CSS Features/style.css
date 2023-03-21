@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  margin: 12px 8px;
+}
+
+ul {
+  list-style: none;
+  background-color: orange;
+}
+
+li {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 540;
+}
+
+a.active {
+  color: purple;
+}
+
+.main-section {
+  margin: 8px;
+  border: 1px solid rgb(205, 204, 204);
+  height: 100vh;
+  box-shadow: 1px 1px 2px 1px whitesmoke;
+}
+
+h5 {
+  margin: 20px 10px;
+  font-size: 13px;
+}
+
+.highlighted {
+  border: 2px solid orange;
+}
