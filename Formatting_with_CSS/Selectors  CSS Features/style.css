@@ -35,16 +35,17 @@ a.active {
 
 .main-section {
   margin: 8px;
-  border: 1px solid rgb(205, 204, 204);
+  border: 1px solid rgb(205, 204, 204) !important;
   height: 100vh;
   box-shadow: 1px 1px 2px 1px whitesmoke;
+}
+
+.highlighted {
+  border: 2px solid orange;
+  height: 200px;
 }
 
 h5 {
   margin: 20px 10px;
   font-size: 13px;
-}
-
-.highlighted {
-  border: 2px solid orange;
 }
