@@ -48,6 +48,15 @@ body {
   border-radius: 8px;
 }
 
+.plan__features {
+  list-style: none;
+  margin: 0;
+}
+
+.plan__features li{
+margin: 8px 0;
+}
+
 /* h1 {
     font-family: sans-serif;
 } */
