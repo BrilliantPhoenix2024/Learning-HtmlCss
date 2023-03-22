@@ -90,6 +90,10 @@ body {
   color: #0e4f1f;
 }
 
+.button:focus {
+  outline: none;
+}
+
 /* h1 {
     font-family: sans-serif;
 } */
