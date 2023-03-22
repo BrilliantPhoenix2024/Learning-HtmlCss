@@ -73,6 +73,23 @@ body {
   margin: 8px 0;
 }
 
+.button {
+  background-color: #0e4f1f;
+  color: white;
+  border: 1.5 solid #0e4f1f;
+  font: inherit;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background-color: white;
+  color: #0e4f1f;
+}
+
 /* h1 {
     font-family: sans-serif;
 } */
