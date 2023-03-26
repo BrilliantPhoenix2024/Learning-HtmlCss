@@ -15,6 +15,7 @@ main {
   border: 4px solid #0e4f1f;
   border-left: none;
   margin: 16px 0;
+  position: relative;
 }
 
 .package:hover,
@@ -35,9 +36,18 @@ main {
   color: black;
 }
 
+.package__badge{
+  position: absolute;
+  top: 0;
+  left: 400px;
+  margin: 20px;
+}
+
 .package__subtitle {
   color: #979797;
 }
+
+
 
 .package__info {
   padding: 16px;
