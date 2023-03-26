@@ -7,11 +7,11 @@ main {
   width: 100%;
   height: 100%;
   position: fixed;
+  z-index: -1;
 }
 
 .package {
   width: 85%;
-
   border: 4px solid #0e4f1f;
   border-left: none;
   margin: 16px 0;
