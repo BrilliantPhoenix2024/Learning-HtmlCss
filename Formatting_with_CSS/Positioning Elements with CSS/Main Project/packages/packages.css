@@ -36,18 +36,20 @@ main {
   color: black;
 }
 
-.package__badge{
+.package__badge {
   position: absolute;
   top: 0;
-  left: 400px;
-  margin: 20px;
+  right: 0;
+  margin: 32px;
+  font-size: 12px;
+  color: white;
+  background-color: #ff4545;
+  padding: 8px;
 }
 
 .package__subtitle {
   color: #979797;
 }
-
-
 
 .package__info {
   padding: 16px;
