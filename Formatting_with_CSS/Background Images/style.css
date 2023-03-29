@@ -4,6 +4,7 @@
   /* background-color: red; */
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: left 10% bottom 20%;
   width: 100%;
   height: 528px;
   padding: 10px;
@@ -20,7 +21,7 @@
   color: white;
   font-family: 'Anton', sans-serif;
   position: absolute;
-  bottom: 1%;
+  bottom: 5%;
   left: 3%;
 }
 
