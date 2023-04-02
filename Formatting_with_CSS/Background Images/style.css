@@ -8,8 +8,14 @@
   background-origin: border-box;
   background-clip: border-box; */
   /* border: 5px dashed #c79311; */
-  background-image: linear-gradient(180deg, red, transparent);
+  /* background-image: linear-gradient(180deg, red, transparent); */
   /* background-image: linear-gradient(180deg, red 70%, rgba(0, 0, 0, 0.5)); */
+  background-image: radial-gradient(
+    ellipse farthest-corner at top 20% left 16%,
+    red,
+    blue 70%,
+    green
+  );
   width: 100%;
   height: 528px;
   padding: 10px;
