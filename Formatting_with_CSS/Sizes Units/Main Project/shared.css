@@ -75,13 +75,13 @@ body {
   text-decoration: none;
   color: #0e4f1f;
   font-weight: bold;
-  padding: 0.3rem 0;
+  padding: 0.2rem 0;
 }
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
   color: white;
-  border-bottom: 0.4rem solid white;
+  border-bottom: 5px solid white;
 }
 
 .main-nav__item--cta a {
@@ -101,7 +101,7 @@ body {
 .button {
   background-color: #0e4f1f;
   color: white;
-  border: 1.5 solid #0e4f1f;
+  border: 1.5px solid #0e4f1f;
   font: inherit;
   padding: 0.5rem;
   border-radius: 8px;
