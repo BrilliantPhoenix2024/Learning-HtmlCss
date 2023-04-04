@@ -1,5 +1,5 @@
 main {
-  padding-top: 32px;
+  padding-top: 2rem;
 }
 
 .background {
@@ -13,9 +13,9 @@ main {
 
 .package {
   width: 85%;
-  border: 4px solid #0e4f1f;
+  border: 0.4rem solid #0e4f1f;
   border-left: none;
-  margin: 16px 0;
+  margin: 1rem 0;
   position: relative;
 }
 
@@ -30,7 +30,7 @@ main {
   text-decoration: none;
   color: inherit;
   display: block;
-  padding: 32px;
+  padding: 2rem;
 }
 
 .package__title {
@@ -41,11 +41,11 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 32px;
-  font-size: 12px;
+  margin: 2rem;
+  font-size: 0.9rem;
   color: white;
   background-color: #ff4545;
-  padding: 8px;
+  padding: 0.5rem;
 }
 
 .package__subtitle {
@@ -53,9 +53,9 @@ main {
 }
 
 .package__info {
-  padding: 16px;
+  padding: 1rem;
   border: 1px solid #0e4f1f;
-  font-size: 20px;
+  font-size: 1.2rem;
   color: #0e4f1f;
   background-color: white;
 }
@@ -72,7 +72,7 @@ main {
   background-color: rgba(234, 252, 237, 0.95);
   float: right;
   border-right: none;
-  border-left: 4px solid #0e4f1f;
+  border-left: 0.4rem solid #0e4f1f;
   text-align: right;
 }
 
