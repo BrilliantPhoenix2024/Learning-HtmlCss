@@ -132,7 +132,7 @@
   font-size: 1.25rem;
 }
 
-.model {
+.modal {
   position: fixed;
   display: none;
   z-index: 200;
@@ -145,16 +145,16 @@
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.model__title {
+.modal__title {
   text-align: center;
   margin: 0 0 1rem 0;
 }
 
-.model__actions {
+.modal__actions {
   text-align: center;
 }
 
-.model__action {
+.modal__action {
   border: 1px solid #0e4f1f;
   background: #0e4f1f;
   text-decoration: none;
@@ -163,19 +163,19 @@
   cursor: pointer;
 }
 
-.model__action:hover,
-.model__action:active {
+.modal__action:hover,
+.modal__action:active {
   background: #2ddf5c;
   border-color: #2ddf5c;
 }
 
-.model__action--negative {
+.modal__action--negative {
   background: red;
   border-color: red;
 }
 
-.model__action--negative:hover,
-.model__action--negative:active {
+.modal__action--negative:hover,
+.modal__action--negative:active {
   background: #ff5454;
   border-color: #ff5454;
 }
