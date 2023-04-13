@@ -5,16 +5,16 @@ const modalNoButton = document.querySelector('.modal__action--negative');
 const toggleButton = document.querySelector('.toggle-button');
 const mobileNav = document.querySelector('.mobile-nav');
 
-console.dir(backdrop);
-console.dir(backdrop.style.backgroundImage);
-console.dir(backdrop.style['background-image']);
+// console.dir(backdrop);
+// console.dir(backdrop.style.backgroundImage);
+// console.dir(backdrop.style['background-image']);
 
 for (let i = 0; i < selectPlanButtons.length; i++) {
   selectPlanButtons[i].addEventListener('click', function () {
     // modal.style.display = 'block';
     // backdrop.style.display = 'block';
     // modal.className = 'open'; // this will actually overwrite the complete class list.
-    modal.classList.add('.open');
+    modal.classList.add('open');
     backdrop.classList.add('open');
   });
 }
@@ -25,13 +25,17 @@ backdrop.addEventListener('click', function () {
   closeModal();
 });
 
-modalNoButton.addEventListener('click', closeModal);
+if (modalNoButton) {
+  modalNoButton.addEventListener('click', closeModal);
+}
 
 function closeModal() {
   // backdrop.style.display = 'none';
   // modal.style.display = 'none';
+  if (modal) {
+    modal.classList.remove('open');
+  }
   backdrop.classList.remove('open');
-  modal.classList.remove('open');
 }
 
 toggleButton.addEventListener('click', function () {
