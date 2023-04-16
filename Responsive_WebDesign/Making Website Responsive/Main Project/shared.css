@@ -77,10 +77,16 @@ body {
 }
 
 .main-nav {
-  display: inline-block;
+  display: none;
   text-align: right;
   width: calc(100% - 122px);
   vertical-align: middle;
+}
+
+@media (min-width: 40rem) {
+  .main-nav {
+    display: inline-block;
+  }
 }
 
 .main-nav__items {
