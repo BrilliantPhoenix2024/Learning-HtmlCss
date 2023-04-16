@@ -33,11 +33,6 @@
   text-align: center;
 }
 
-/* .plan__list {
-  width: 100%;
-  text-align: center;
-} */
-
 .plan {
   background-color: #d5ffdc;
   text-align: center;
@@ -49,7 +44,6 @@
 .plan__highlighted {
   background-color: #19b84c;
   color: white;
-  /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5); */
 }
 
 .plan__annotation {
@@ -83,6 +77,25 @@
 
 .plan__features li {
   margin: 0.5rem 0;
+}
+
+@media (min-width: 40rem) {
+  .plan__list {
+    width: 100%;
+    text-align: center;
+  }
+
+  .plan {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 13rem;
+    max-width: 25rem;
+  }
+
+  .plan__highlighted {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
 }
 
 #key-features {
