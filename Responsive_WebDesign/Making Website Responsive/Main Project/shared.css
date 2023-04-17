@@ -12,6 +12,11 @@ body {
   margin: 0;
 }
 
+main {
+  min-height: calc(100vh - 3.5rem - 8rem);
+  margin-top: 3.5rem;
+}
+
 .backdrop {
   position: fixed;
   display: none;
@@ -85,6 +90,10 @@ body {
 @media (min-width: 40rem) {
   .main-nav {
     display: inline-block;
+  }
+
+  .toggle-button {
+    display: none;
   }
 }
 
