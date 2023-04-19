@@ -188,6 +188,13 @@ main {
   outline: none;
 }
 
+/* .button[disabled] {
+  cursor: not-allowed;
+  border-color: #a1a1a1;
+  background: #ccc;
+  color: #a1a1a1;
+} */
+
 .main-footer {
   background-color: black;
   padding: 2rem;
