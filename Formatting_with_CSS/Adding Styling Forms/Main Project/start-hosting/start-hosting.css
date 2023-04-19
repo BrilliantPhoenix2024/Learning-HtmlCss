@@ -61,6 +61,12 @@
   border-color: #0e4f1f;
 }
 
+.signup-form input:invalid,
+.signup-form select:invalid {
+  border-color: red !important;
+  background: #faacac;
+}
+
 .signup-form button[type='submit'] {
   display: block;
   margin-top: 1rem;
