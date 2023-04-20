@@ -1,0 +1,203 @@
+#product-overview {
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    url(./image/freedom.jpg) center/ cover no-repeat border-box border-box,
+    #ff1b68;
+  width: 100vw;
+  height: 33vh;
+  position: relative;
+}
+
+#product-overview h1 {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  font-size: 1.6rem;
+}
+
+/* orientation: protrait */
+@media (min-width: 40rem) and (min-height: 40rem) {
+  #product-overview {
+    height: 40vh;
+    background-position: 50% 25%;
+  }
+
+  #product-overview h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.section-title {
+  color: #2ddf5c;
+  text-align: center;
+}
+
+.plan {
+  background-color: #d5ffdc;
+  text-align: center;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.plan__highlighted {
+  background-color: #19b84c;
+  color: white;
+}
+
+.plan__annotation {
+  background-color: white;
+  color: #19b84c;
+  padding: 0.5rem;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.plan__title {
+  color: #0e4f1f;
+}
+
+.plan__price {
+  color: #858585;
+}
+
+.plan__highlighted .plan__title {
+  color: white;
+}
+
+.plan__highlighted .plan__price {
+  color: #0e4f1f;
+}
+
+.plan__features {
+  list-style: none;
+  margin: 0;
+}
+
+.plan__features li {
+  margin: 0.5rem 0;
+}
+
+/* and / , */
+@media (min-width: 40rem) and (orientation: landscape) {
+  .plan__list {
+    width: 100%;
+    text-align: center;
+  }
+
+  .plan {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 13rem;
+    max-width: 25rem;
+  }
+
+  .plan__highlighted {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+
+#key-features {
+  background: #ff1b68;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+#key-features .section-title {
+  color: white;
+  margin: 2rem;
+}
+
+.key-feature__list {
+  list-style: none;
+  color: #0e4f1f;
+  text-align: center;
+}
+
+@media (min-width: 40rem) {
+  .key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    max-width: 25rem;
+  }
+}
+
+.key-feature__image {
+  background-color: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.modal {
+  position: fixed;
+  display: none;
+  z-index: 200;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.modal__title {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.modal__actions {
+  text-align: center;
+}
+
+.modal__action {
+  border: 1px solid #0e4f1f;
+  background: #0e4f1f;
+  text-decoration: none;
+  font: inherit;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.modal__action:hover,
+.modal__action:active {
+  background: #2ddf5c;
+  border-color: #2ddf5c;
+}
+
+.modal__action--negative {
+  background: red;
+  border-color: red;
+}
+
+.modal__action--negative:hover,
+.modal__action--negative:active {
+  background: #ff5454;
+  border-color: #ff5454;
+}
+
+/* Absolute lengths on W3.org:
+ https://www.w3.org/TR/css-values-3/#absolute-lengths
+
+More about device sizes:
+ https://bjango.com/articles/min-device-pixel-ratio/
+
+Media queries theory:
+ https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries
+
+Applying media queries:
+ https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries */
