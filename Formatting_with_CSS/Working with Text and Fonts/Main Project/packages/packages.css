@@ -76,6 +76,7 @@ main {
   background-color: white;
   font-family: 'AnonymousPro', sans-serif;
   font-weight: 700;
+  line-height: 2;
   /* font-weight: 100; */
   /* font-style: italic; */
 }
