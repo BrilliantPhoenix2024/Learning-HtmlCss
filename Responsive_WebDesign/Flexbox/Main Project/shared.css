@@ -202,12 +202,16 @@ main {
 
 .main-footer__links {
   list-style: none;
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-footer__link {
-  display: inline-block;
-  margin: 0 1rem;
+  /* display: block; */
+  margin: 0.5rem 0;
 }
 
 .main-footer__link a {
@@ -237,9 +241,12 @@ main {
     display: none;
   }
 
-  .main-footer {
-    background-color: black;
-    padding: 2rem;
-    margin-top: 3rem;
+  .main-footer__link {
+    margin: 0 1rem;
+  }
+
+  .main-footer__links {
+    flex-direction: row;
+    justify-content: center;
   }
 }
