@@ -27,8 +27,7 @@ body {
   flex-wrap: wrap;
   /* flex-flow: row wrap; */
   align-items: center;
-  justify-content: center;
-  align-content: center;
+  justify-content: flex-start;
 }
 
 .item-1 {
@@ -68,6 +67,7 @@ body {
   border: 5px solid black;
   margin: 10px;
   font-size: 1.8rem;
+  order: 1;
 }
 
 .item-5 {
@@ -88,4 +88,5 @@ body {
   border: 5px solid black;
   margin: 10px;
   font-size: 1.8rem;
+  order: -2;
 }
