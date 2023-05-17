@@ -56,6 +56,7 @@ body {
   border: 5px solid black;
   margin: 10px;
   font-size: 1.8rem;
+  align-self: flex-start;
 }
 
 .item-4 {
@@ -67,7 +68,7 @@ body {
   border: 5px solid black;
   margin: 10px;
   font-size: 1.8rem;
-  order: 1;
+  /* order: 1; */
 }
 
 .item-5 {
@@ -88,5 +89,5 @@ body {
   border: 5px solid black;
   margin: 10px;
   font-size: 1.8rem;
-  order: -2;
+  /* order: -2; */
 }
