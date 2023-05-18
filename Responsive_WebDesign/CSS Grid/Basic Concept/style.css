@@ -4,7 +4,9 @@
   height: 200px;
   /* grid-template-columns: 200px 5rem 20% auto; */
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: 5rem minmax(auto, 200px) 100px;
+  grid-template-rows:
+    [row-1-start] 5rem [row-2-end row-2-start] minmax(auto, 200px)
+    [row-2-end row-3-start]100px [row-3-end];
 }
 
 .el1 {
@@ -15,7 +17,7 @@
   background: rgba(255, 0, 0, 0.5);
   grid-column-start: 1;
   grid-column-end: -1;
-  grid-row-start: 2;
+  grid-row-start: row-2-start;
   grid-row-end: span 1;
   z-index: 10;
 }
@@ -24,8 +26,8 @@
   background: rgba(0, 128, 0, 0.5);
   grid-column-start: 2;
   grid-column-end: span 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-start: row-1-start;
+  grid-row-end: row-2-end;
 }
 
 .el4 {
