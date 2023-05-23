@@ -14,6 +14,8 @@
     "header header header header"
     ". side main main"
     "footer footer footer footer";
+  justify-items: center;
+  align-items: center;
 }
 
 .el1 {
