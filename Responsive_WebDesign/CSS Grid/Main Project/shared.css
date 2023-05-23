@@ -16,7 +16,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   display: grid;
-  grid-template-rows: 3.5rem auto 8rem;
+  grid-template-rows: 3.5rem auto fit-content(8rem);
   grid-template-areas:
     'header'
     'main'
@@ -27,7 +27,6 @@ body {
 
 main {
   /* min-height: calc(100vh - 3.5rem - 8rem); */
-  margin-top: 3.5rem;
   /* grid-row: 2 / 3; */
   grid-area: main;
 }
