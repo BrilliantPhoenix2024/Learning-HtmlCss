@@ -36,6 +36,8 @@
   /* grid-row: row-2-start / span 1; */
   grid-area: main;
   z-index: 10;
+  justify-self: center;
+  align-self: center;
 }
 
 .el3 {
