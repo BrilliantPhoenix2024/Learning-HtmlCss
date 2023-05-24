@@ -1,11 +1,12 @@
 .container {
   margin: 20px;
   display: grid;
-  height: 200px;
+  height: 800px;
+  width: 800px;
   /* grid-template-columns: 200px 5rem 20% auto; */
-  grid-template-columns: [hd-start] repeat(4, [col-start] 25% [col-end]) [hd-end];
+  grid-template-columns: [hd-start] repeat(4, [col-start] 20% [col-end]) [hd-end];
   grid-template-rows:
-    [hd-start] 5rem [hd-end row-2-start] minmax(auto, 200px)
+    [hd-start] 5rem [hd-end row-2-start] minmax(10px, 20rem)
     [row-2-end row-3-start]100px [row-3-end];
   /* grid-column-gap: 20px;
   grid-row-gap: 10px; */
@@ -14,8 +15,10 @@
     "header header header header"
     ". side main main"
     "footer footer footer footer";
-  justify-items: center;
-  align-items: center;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: center;
+  align-content: center;
 }
 
 .el1 {
