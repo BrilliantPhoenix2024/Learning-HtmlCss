@@ -3,6 +3,8 @@
   border: 1px solid black;
   width: 200px;
   height: 200px;
+  perspective: 1000px;
+  perspective-origin: 500px;
 }
 
 .box {
@@ -12,5 +14,5 @@
   color: white;
   font-family: sans-serif;
   text-align: center;
-  transform: rotateX(0deg) rotateY(80deg);
+  transform: perspective(1000px) rotateX(30deg) rotateY(80deg) rotateZ(30deg);
 }
