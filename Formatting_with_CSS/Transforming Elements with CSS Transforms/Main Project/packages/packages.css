@@ -58,11 +58,13 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 1rem;
+  margin: 0;
   font-size: 0.8rem;
   color: white;
   background-color: #ff4545;
   padding: 0.5rem;
+  transform: rotateZ(45deg);
+  transform-origin: center;
 }
 
 .package__subtitle {
