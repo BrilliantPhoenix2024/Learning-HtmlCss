@@ -20,6 +20,7 @@
   text-align: center;
   transform: rotateY(80deg);
   z-index: 1;
+  backface-visibility: hidden;
 }
 
 .box2 {
