@@ -34,6 +34,7 @@ main {
   border-left: none;
   margin: 1rem 0;
   position: relative;
+  overflow: hidden;
 }
 
 .package:hover,
@@ -63,8 +64,10 @@ main {
   color: white;
   background-color: #ff4545;
   padding: 0.5rem;
-  transform: rotateZ(45deg);
+  transform: rotateZ(45deg) translateX(3.5rem) translateY(-1rem);
   transform-origin: center;
+  width: 12rem;
+  text-align: center;
 }
 
 .package__subtitle {
