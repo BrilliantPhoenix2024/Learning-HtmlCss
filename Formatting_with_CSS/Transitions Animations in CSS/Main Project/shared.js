@@ -4,6 +4,7 @@ const modal = document.querySelector('.modal');
 const modalNoButton = document.querySelector('.modal__action--negative');
 const toggleButton = document.querySelector('.toggle-button');
 const mobileNav = document.querySelector('.mobile-nav');
+const ctaButton = document.querySelector('.main-nav__item--cta');
 
 // console.dir(backdrop);
 // console.dir(backdrop.style.backgroundImage);
@@ -51,4 +52,16 @@ toggleButton.addEventListener('click', function () {
   setTimeout(function () {
     backdrop.classList.add('open');
   }, 10);
+});
+
+ctaButton.addEventListener('animationstart', function (event) {
+  console.log('Animation Started.', event);
+});
+
+ctaButton.addEventListener('animationend', function (event) {
+  console.log('Animation Ended.', event);
+});
+
+ctaButton.addEventListener('animationiteration', function (event) {
+  console.log('Animation iteration.', event);
 });
