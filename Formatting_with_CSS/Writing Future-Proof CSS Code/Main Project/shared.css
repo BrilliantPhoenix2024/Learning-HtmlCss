@@ -57,9 +57,6 @@ main {
   background: #2ddf5c;
   padding: 0.5rem 1rem;
   z-index: 60;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -138,6 +135,7 @@ main {
 }
 
 .main-nav__item--cta {
+  -webkit-animation: wiggle 400ms 3s 8 ease-out none;
   animation: wiggle 400ms 3s 8 ease-out none;
 }
 
@@ -279,6 +277,18 @@ main {
   }
 }
 
+@-webkit-keyframes wiggle {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(-10deg);
+  }
+  100% {
+    transform: rotateZ(10deg);
+  }
+}
+
 @keyframes wiggle {
   0% {
     transform: rotateZ(0);
@@ -290,3 +300,5 @@ main {
     transform: rotateZ(10deg);
   }
 }
+
+/* Page: What CSS to prefix - read about Which Prefixes Should You Use */
