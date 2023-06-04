@@ -1,3 +1,5 @@
+$main-color: #521751;
+
 @import "typography.css";
 
 html {
@@ -26,7 +28,7 @@ body {
 }
 
 .sass-introduction {
-  border: 0.05rem solid #521751;
+  border: 0.05rem solid $main-color;
   background: #fae5ff;
   padding: 2rem;
   text-align: center;
@@ -40,7 +42,7 @@ body {
 }
 
 .sass-details {
-  border: 0.05rem solid #521751;
+  border: 0.05rem solid $main-color;
   background: #fae5ff;
   padding: 1rem;
   text-align: center;
@@ -50,7 +52,7 @@ body {
 }
 
 .section-header {
-  border-bottom: 0.05rem solid #521751;
+  border-bottom: 0.05rem solid $main-color;
 }
 
 .section-header h1 {
@@ -74,10 +76,10 @@ body {
 
   .documentation-link {
     text-decoration: none;
-    color: #521751;
+    color: $main-color;
     display: block;
     padding: 0.2rem;
-    border: 0.05rem solid #521751;
+    border: 0.05rem solid $main-color;
   }
 
   .documentation-link:hover,
