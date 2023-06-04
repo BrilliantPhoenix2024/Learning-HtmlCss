@@ -34,7 +34,7 @@ body {
 
 .sass-introduction {
   border: $border-default;
-  background: #fae5ff;
+  background: lighten(map-get($colors, main), 75%);
   padding: 2rem;
   text-align: center;
   box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
@@ -48,7 +48,7 @@ body {
 
 .sass-details {
   border: $border-default;
-  background: #fae5ff;
+  background: lighten(map-get($colors, main), 75%);
   padding: 1rem;
   text-align: center;
   margin: 2rem 0;
