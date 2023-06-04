@@ -1,4 +1,9 @@
-$main-color: #521751;
+// $main-color: #521751;
+$colors: (
+  main: #521751,
+  secondary: #fa923f,
+);
+$border-default: 0.05rem solid map-get($colors, main);
 
 @import "typography.css";
 
@@ -28,7 +33,7 @@ body {
 }
 
 .sass-introduction {
-  border: 0.05rem solid $main-color;
+  border: $border-default;
   background: #fae5ff;
   padding: 2rem;
   text-align: center;
@@ -42,7 +47,7 @@ body {
 }
 
 .sass-details {
-  border: 0.05rem solid $main-color;
+  border: $border-default;
   background: #fae5ff;
   padding: 1rem;
   text-align: center;
@@ -52,7 +57,7 @@ body {
 }
 
 .section-header {
-  border-bottom: 0.05rem solid $main-color;
+  border-bottom: 0.05rem solid map-get($colors, main);
 }
 
 .section-header h1 {
@@ -76,17 +81,17 @@ body {
 
   .documentation-link {
     text-decoration: none;
-    color: $main-color;
+    color: map-get($colors, main);
     display: block;
     padding: 0.2rem;
-    border: 0.05rem solid $main-color;
+    border: $border-default;
   }
 
   .documentation-link:hover,
   .documentation-link:active {
     color: white;
-    background: #fa923f;
-    border-color: #fa923f;
+    background: map-get($colors, secondary);
+    border-color: map-get($colors, secondary);
   }
 }
 
