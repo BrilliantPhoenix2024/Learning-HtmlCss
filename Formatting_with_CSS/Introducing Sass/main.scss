@@ -59,10 +59,10 @@ body {
 .sass-introduction {
   @extend .sass-section;
   box-shadow: $size-tiny $size-tiny $size-tiny/2 #ccc;
-}
 
-.sass-introduction p {
-  margin: 0;
+  p {
+    margin: 0;
+  }
 }
 
 .sass-details {
@@ -72,10 +72,10 @@ body {
 
 .section-header {
   border-bottom: $size-tiny/4 solid map-get($colors, main);
-}
 
-.section-header h1 {
-  margin: 0 0 $size-default 0;
+  h1 {
+    margin: 0 0 $size-default 0;
+  }
 }
 
 .documentation-links {
@@ -96,12 +96,12 @@ body {
     display: block;
     padding: $size-tiny;
     border: $border-default;
-  }
 
-  .documentation-link:hover,
-  .documentation-link:active {
-    color: white;
-    background: map-get($colors, secondary);
-    border-color: map-get($colors, secondary);
+    &:hover,
+    &:active {
+      color: white;
+      background: map-get($colors, secondary);
+      border-color: map-get($colors, secondary);
+    }
   }
 }
