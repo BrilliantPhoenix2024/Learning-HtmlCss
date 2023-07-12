@@ -6,3 +6,22 @@ Fonts
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Catamaran:wght@400;700&family=Courgette&display=swap");
 /* @import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel"); */
+
+/* 
+---------------------
+Variables
+--------------------- 
+*/
+:root {
+  --clr-primary: #678e3e;
+  --clr-primary-light: #beed8c;
+  --clr-grey-1: #102a42;
+  --clr-grey-5: #617d98;
+  --clr-grey-10: #f1f5f8;
+  --clr-white: #fff;
+  --ff-primary: "Catamaran", sans-serif;
+  --ff-secondary: "Courgette", sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+}
