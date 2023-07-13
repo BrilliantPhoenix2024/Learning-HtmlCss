@@ -180,3 +180,18 @@ Header
   font-size: 1.2rem;
   padding: 1rem 1.75rem;
 }
+
+/* 
+---------------------
+Content Divider
+--------------------- 
+*/
+.content-divider {
+  height: 0.5rem;
+  background: linear-gradient(
+    to left,
+    var(--clr-primary),
+    #e9b949,
+    var(--clr-primary)
+  );
+}
