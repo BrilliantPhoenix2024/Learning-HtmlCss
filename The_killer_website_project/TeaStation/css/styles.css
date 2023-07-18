@@ -170,6 +170,22 @@ More Global Css
 
 /* 
 ---------------------
+Navbar
+--------------------- 
+*/
+.nav-btn {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  font-size: 2.5rem;
+  color: var(--clr-primary);
+  z-index: 10;
+  cursor: pointer;
+  /* animation */
+}
+
+/* 
+---------------------
 Header
 --------------------- 
 */
