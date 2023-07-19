@@ -201,11 +201,13 @@ Navbar
   z-index: 2;
   box-shadow: 2px 0 2px rgba(0, 0, 0, 0.2);
   /* hide navbar */
+  transform: translateX(-100%);
+  transition: var(--transition);
 }
 
-/* .showNav {
-
-} */
+.showNav {
+  transform: translate(0);
+}
 
 .navbar-header {
   text-align: right;
