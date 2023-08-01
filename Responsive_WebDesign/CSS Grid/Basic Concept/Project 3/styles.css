@@ -196,7 +196,7 @@ Cards
   color: var(--primaryColor);
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .cards-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -208,4 +208,18 @@ Cards
   .cards-center {
     grid-template-columns: repeat(3, 1fr);
   }
+} */
+
+/* 1170px(max-width) - 64px(total-gap) = A */
+/* A / the number of column you want to have = B(368px) */
+.cards-center {
+  display: grid;
+  grid-column-gap: 2rem;
+  
+  /* Three column layout */
+  /* grid-template-columns: repeat(auto-fit, minmax(368px, 1fr)); */
+  /* grid-template-columns: repeat(auto-fill, minmax(368px, 1fr)); */
+
+  /* Four column layout */
+  grid-template-columns: repeat(auto-fill, minmax(268.5px, 1fr));
 }
