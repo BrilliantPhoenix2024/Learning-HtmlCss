@@ -210,12 +210,18 @@ Cards
   }
 } */
 
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
 /* 1170px(max-width) - 64px(total-gap) = A */
 /* A / the number of column you want to have = B(368px) */
 .cards-center {
   display: grid;
   grid-column-gap: 2rem;
-  
+
   /* Three column layout */
   /* grid-template-columns: repeat(auto-fit, minmax(368px, 1fr)); */
   /* grid-template-columns: repeat(auto-fill, minmax(368px, 1fr)); */
