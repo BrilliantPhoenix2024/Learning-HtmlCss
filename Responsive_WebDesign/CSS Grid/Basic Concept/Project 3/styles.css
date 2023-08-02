@@ -276,9 +276,10 @@ Tiles
       "e g h i";
   }
 
-  /* very important point in this layout */
+  /* very important point in this layout for imges */
   .tiles img {
     height: 100%;
+    object-fit: cover;
   }
 
   .tile-1 {
