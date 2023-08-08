@@ -259,7 +259,11 @@ Sidebar
   place-items: center;
   transition: var(--transition);
   /* add later */
-  transform: translateX(-100);
+  transform: translateX(-100%);
+}
+
+.show-sidebar {
+  transform: translateX(0);
 }
 
 .sidebar-links {
