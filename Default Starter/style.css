@@ -48,7 +48,7 @@ html {
   --backgroundColor: var(--gray--50);
   --textColor: var(--gray--900);
   --border-radious: 0.25rem;
-  --letterSpacing: 1px;
+  --letter-spacing: 1px;
   --transition: all 0.3s ease-in-out;
   --max-width: 1120px;
   --fixed-width: 600px;
@@ -136,3 +136,39 @@ ul {
 }
 
 /* img:not() */
+
+.btn {
+  cursor: pointer;
+  color: var(--white);
+  background: var(--primary-500);
+  border: transparent;
+  border-radius: var(--border-radious);
+  letter-spacing: var(--letter-spacing);
+  padding: 0.37rem 0.75rem;
+  box-shadow: var(--shadow-1);
+  transition: var(--transition);
+  text-transform: capitalize;
+  display: inline-block;
+  /* display: block;
+  width: 200px;
+  margin: 0 auto; */
+}
+
+.btn:hover {
+  color: var(--primary-700);
+  box-shadow: var(--shadow-3);
+}
+
+.btn-hipster {
+  color: var(--primary-500);
+  background: var(--primary-200);
+}
+
+.btn-hipster:hover {
+  color: var(--primary-200);
+  background: var(--primary-700);
+}
+
+.btn-block {
+  width: 100%;
+}
