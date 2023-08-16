@@ -47,7 +47,7 @@ html {
   /* other vars */
   --backgroundColor: var(--gray--50);
   --textColor: var(--gray--900);
-  --borderRadious: 0.25rem;
+  --border-radious: 0.25rem;
   --letterSpacing: 1px;
   --transition: all 0.3s ease-in-out;
   --max-width: 1120px;
@@ -121,3 +121,18 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+
+.container {
+  width: 40vw;
+  border: 5px solid var(--primary-500);
+  border-radius: var(--border-radious);
+  max-width: var(--max-width);
+}
+
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* img:not() */
