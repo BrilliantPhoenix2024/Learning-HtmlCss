@@ -276,3 +276,96 @@ ul {
   margin: 0 auto;
   /* margin-top: -1rem; */
 }
+
+/* 
+=====================
+Nav
+=====================
+*/
+nav {
+  background: var(--white);
+  height: 4rem;
+  display: grid;
+  align-items: center;
+  box-shadow: var(--shadow-2);
+  justify-content: center;
+}
+
+.nav-center {
+  width: 90vw;
+  max-width: var(--fixed-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-center h4 {
+  color: var(--primary-500);
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  /* gap: 0 1rem; */
+}
+
+.nav-links a {
+  text-transform: capitalize;
+  margin-right: 1rem;
+  color: var(--primary-900);
+  font-size: 1rem;
+  letter-spacing: var(--letter-spacing);
+}
+
+.nav-links a:hover {
+  color: var(--primary-500);
+}
+
+/* 
+=====================
+Hero
+=====================
+*/
+main {
+  height: calc(100vh - 4rem);
+  display: grid;
+  place-items: center;
+  background: var(--gray--100);
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h2 {
+  background: var(--black);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: var(--border-radious);
+  margin-bottom: 2.5rem;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+.color {
+  color: var(--primary-500);
+  text-transform: uppercase;
+}
+
+.btn-hero {
+  background-color: transparent;
+  border: 2px solid var(--black);
+  color: var(--black);
+  letter-spacing: 0.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.75rem 1.25rem;
+}
+
+.btn-hero:hover {
+  color: var(--white);
+  background: var(--black);
+}
