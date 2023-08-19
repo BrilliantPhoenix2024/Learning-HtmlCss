@@ -427,6 +427,10 @@ Single Task Page
   font-size: 1rem;
 }
 
+.form-control .task-edit-completed{
+ justify-self: start;
+}
+
 .back-link {
   display: block;
   width: 250px;
