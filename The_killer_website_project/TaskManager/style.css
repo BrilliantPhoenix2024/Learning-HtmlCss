@@ -50,7 +50,7 @@ html {
   /* other vars */
   --backgroundColor: var(--gray--50);
   --textColor: var(--gray--900);
-  --border-radious: 0.25rem;
+  --border-radius: 0.25rem;
   --letter-spacing: 1px;
   --transition: all 0.3s ease-in-out;
   --max-width: 1120px;
@@ -129,7 +129,7 @@ ul {
 .container {
   width: 40vw;
   border: 5px solid var(--primary-500);
-  border-radius: var(--border-radious);
+  border-radius: var(--border-radius);
   max-width: var(--max-width);
 }
 
@@ -147,7 +147,7 @@ ul {
   color: var(--white);
   background: var(--primary-500);
   border: transparent;
-  border-radius: var(--border-radious);
+  border-radius: var(--border-radius);
   letter-spacing: var(--letter-spacing);
   padding: 0.37rem 0.75rem;
   box-shadow: var(--shadow-1);
@@ -183,7 +183,7 @@ ul {
   padding: 0.375rem 0.75rem;
   margin-bottom: 1rem;
   border-color: transparent;
-  border-radius: var(--border-radious);
+  border-radius: var(--border-radius);
 }
 
 .alert-danger {
@@ -201,7 +201,7 @@ ul {
   width: 90vw;
   max-width: var(--fixed-width);
   background: var(--white);
-  border-radius: var(--border-radious);
+  border-radius: var(--border-radius);
   box-shadow: var(--shadow-2);
   padding: 2rem 2.5rem;
   margin: 3rem auto;
@@ -219,7 +219,7 @@ ul {
 .form-textarea {
   width: 100%;
   padding: 0.375rem 0.75rem;
-  border-radius: var(--border-radious);
+  border-radius: var(--border-radius);
   background: var(--backgroundColor);
   border: 1px solid var(--gray--200);
 }
@@ -275,4 +275,46 @@ ul {
   height: 0.25rem;
   margin: 0 auto;
   /* margin-top: -1rem; */
+}
+
+/* 
+====================
+Task Manager
+====================
+*/
+.task-form {
+  margin-top: 6rem;
+}
+
+.task-form h4 {
+  text-align: center;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+  .form-control {
+    display: flex;
+  }
+
+  .task-input {
+    border-radius: 0;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+  }
+
+  .submit-btn {
+    margin-top: 0;
+    border-radius: 0;
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    width: 175px;
+  }
+}
+
+.text-success {
+  color: var(--green-dark);
 }
