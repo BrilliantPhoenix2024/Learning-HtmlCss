@@ -395,3 +395,53 @@ Tasks
 .delete-btn {
   color: var(--red-dark);
 }
+
+/* 
+====================
+Single Task Page
+====================
+*/
+.single-task-form {
+  margin-top: 6rem;
+}
+
+.single-task-form h4 {
+  text-align: center;
+}
+
+.single-task-form p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.single-task-form .form-control {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+  gap: 0 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.single-task-form label {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.back-link {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 6rem;
+  background: var(--black);
+}
+
+.back-link:hover {
+  background: var(--black);
+  opacity: 0.75;
+}
+
+.single-task-form .form-alert {
+  text-align: center;
+  margin-top: 1rem;
+}
