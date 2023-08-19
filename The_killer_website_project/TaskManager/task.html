@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form action="" class="form single-task-form">
+      <h4>edit task</h4>
+      <div class="form-control">
+        <label for="" class="form-label">Task ID</label>
+        <p class="task-edit-id">123456789</p>
+      </div>
+      <div class="form-control">
+        <label for="name" class="form-label">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-input task-edit-name"
+          value="walk the dog"
+        />
+      </div>
+      <div class="form-control">
+        <label for="" class="form-label">Completed</label>
+        <input
+          type="checkbox"
+          name="completed"
+          id="completed"
+          class="task-edit-completed"
+        />
+      </div>
+      <button type="submit" class="btn btn-block task-edit-btn">edit</button>
+      <div class="form-alert text-small">there is an error</div>
+    </form>
+
+    <a href="./index.html" class="btn back-link">back to tasks</a>
+  </body>
+</html>
