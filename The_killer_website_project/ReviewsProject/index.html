@@ -3,13 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Default Starter</title>
+    <title>Reviews</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
     <!-- normalize -->
     <link rel="stylesheet" href="./normalize.css" />
     <!-- Main CSS -->
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-  
+    <main>
+      <div class="main-container">
+        <!-- title -->
+        <div class="title">
+          <h2>our reviews</h2>
+        </div>
+        <div class="title-underline"></div>
+      </div>
+      <!-- review -->
+      <article class="review">
+        <div class="img-container">
+          <img
+            src="./image/customer-1.jpg"
+            alt=""
+            class="img"
+            id="person-img"
+          />
+        </div>
+        <h4 id="author">sera jones</h4>
+        <p id="job">ux designer</p>
+        <p class="info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid esse
+          qui sit sint voluptatibus recusandae, consectetur beatae vitae
+          suscipit inventore culpa optio sapiente ex minima.
+        </p>
+        <div class="button-container">
+          <button type="button" class="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button type="button" class="next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        <button class="btn random-btn">surprise me</button>
+      </article>
+    </main>
   </body>
 </html>
