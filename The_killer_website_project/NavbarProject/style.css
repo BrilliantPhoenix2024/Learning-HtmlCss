@@ -340,3 +340,51 @@ nav {
 .links {
   margin: 0;
 }
+
+@media screen and (min-width: 800px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-center {
+    max-width: var(--max-width);
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .nav-header {
+    padding: 0;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+  }
+
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+
+  .social-icons {
+    display: flex;
+  }
+
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: var(--primary-500);
+    transition: var(--transition);
+  }
+
+  .social-icons a:hover {
+    color: var(--primary-300);
+  }
+}
