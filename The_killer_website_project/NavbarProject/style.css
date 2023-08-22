@@ -339,6 +339,13 @@ nav {
 
 .links {
   margin: 0;
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.show-links {
+  height: 10rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -361,7 +368,7 @@ nav {
 
   .links {
     display: flex;
-    align-items: center;
+    height: auto;
   }
 
   .links a {
