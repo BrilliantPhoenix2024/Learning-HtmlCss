@@ -300,5 +300,52 @@ Modal
 }
 
 .modal-overlay {
-  display: none;
+  position: fixed;
+  background: rgba(136, 138, 136, 0.5);
+  /* top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; */
+  inset: 0;
+  /* width: 100%;
+  height: 100%; */
+  display: grid;
+  place-items: center;
+  visibility: hidden;
+  z-index: -10;
+  transition: all 1s ease-in-out;
+  /* display: none; */
+}
+
+.open-modal-overlay {
+  /* display: grid; */
+  visibility: visible;
+  z-index: 10;
+}
+
+.modal-container {
+  background: var(--white);
+  border-radius: var(--border-radious);
+  width: 90vw;
+  height: 35vh;
+  max-width: var(--fixed-width);
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--red-dark);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.close-btn:hover {
+  transform: rotate(360deg) scale(1.3);
 }
