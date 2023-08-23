@@ -276,3 +276,29 @@ ul {
   margin: 0 auto;
   /* margin-top: -1rem; */
 }
+
+/* 
+=========================
+Modal
+=========================
+*/
+.hero {
+  min-height: 100vh;
+  background: url("./hero.jpeg") center/cover no-repeat;
+  display: grid;
+  place-items: center;
+}
+
+.banner {
+  background: var(--white);
+  padding: 4rem 0;
+  border-radius: var(--border-radious);
+  box-shadow: var(--shadow-2);
+  width: 90vw;
+  text-align: center;
+  max-width: var(--fixed-width);
+}
+
+.modal-overlay {
+  display: none;
+}
