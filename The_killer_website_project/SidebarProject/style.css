@@ -325,6 +325,11 @@ Sidebar
   row-gap: 1rem;
   box-shadow: var(--shadow-2);
   transition: var(--transition);
+  transform: translateX(-100%);
+}
+
+.show-sidebar {
+  transform: translate(0);
 }
 
 @media screen and (min-width: 676px) {
