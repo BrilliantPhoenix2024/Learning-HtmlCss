@@ -276,3 +276,101 @@ ul {
   margin: 0 auto;
   /* margin-top: -1rem; */
 }
+
+/* 
+===========================
+Grocery Bud
+===========================
+*/
+.section-center {
+  background: var(--white);
+  border-radius: var(--border-radious);
+  box-shadow: var(--shadow-2);
+  transition: var(--transition);
+  padding: 1rem;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 10rem;
+  max-width: var(--fixed-width);
+}
+
+.section-center {
+  box-shadow: var(--shadow-4);
+}
+
+.alert {
+  font-size: 0.7rem;
+  text-align: center;
+  letter-spacing: var(--letter-spacing);
+  text-transform: capitalize;
+}
+
+.grocery-form h4 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.grocery-form .form-row {
+  display: flex;
+}
+
+.grocery-form .form-input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.submit-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 100px;
+}
+
+.grocery-container {
+  margin-top: 2rem;
+}
+
+.grocery-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  transition: var(--transition);
+  padding: 0.25rem 1rem;
+  border-radius: var(--border-radious);
+  text-transform: capitalize;
+  color: var(--gray--700);
+}
+
+.grocery-item:hover {
+  color: var(--gray--500);
+  background: var(--gray--100);
+}
+
+.edit-btn,
+.delete-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.7rem;
+}
+
+.edit-btn {
+  color: var(--green-dark);
+}
+
+.delete-btn {
+  color: var(--red-dark);
+}
+
+.clear-btn {
+  color: var(--red-dark);
+  width: 100%;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-color: transparent;
+  background: var(--gray--100);
+  text-transform: capitalize;
+  border-radius: var(--border-radious);
+  letter-spacing: var(--letter-spacing);
+  margin-bottom: 0.5rem;
+}
