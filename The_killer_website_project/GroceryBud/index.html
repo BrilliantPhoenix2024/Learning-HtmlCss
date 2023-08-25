@@ -14,5 +14,63 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <section class="section-center">
+      <!-- form -->
+      <form action="" class="grocery-form">
+        <div class="alert alert-danger">please enter value</div>
+        <h4>grocery bud</h4>
+        <div class="form-row">
+          <input
+            type="text"
+            name=""
+            id=""
+            class="form-input"
+            placeholder="e.g. eggs"
+          />
+          <button type="submit" class="btn submit-btn text-small">
+            submit
+          </button>
+        </div>
+      </form>
+      <!-- list -->
+      <div class="grocery-container">
+        <!-- list items -->
+        <div class="grocery-list">
+          <!-- grocery-item -->
+          <article class="grocery-item">
+            <span-title>apples</span-title>
+            <div class="btn-container">
+              <!-- edit btn -->
+              <button type="button" class="edit-btn">
+                <i class="fas fa-edit"></i>
+              </button>
+              <!-- delete btn -->
+              <button type="button" class="delete-btn">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </article>
+          <!-- end of grocery-item -->
+          <!-- grocery-item -->
+          <article class="grocery-item">
+            <span-title>oranges</span-title>
+            <div class="btn-container">
+              <!-- edit btn -->
+              <button type="button" class="edit-btn">
+                <i class="fas fa-edit"></i>
+              </button>
+              <!-- delete btn -->
+              <button type="button" class="delete-btn">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </article>
+          <!-- end of grocery-item -->
+        </div>
+        <!-- clear btn -->
+        <button type="button" class="clear-btn">clear items</button>
+      </div>
+    </section>
+  </body>
 </html>
