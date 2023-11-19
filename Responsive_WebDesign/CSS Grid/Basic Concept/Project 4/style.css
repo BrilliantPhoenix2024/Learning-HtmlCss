@@ -13,4 +13,8 @@ body {
 
 .container {
   display: grid;
+  gap: 20px;
+  grid-template-columns: 200px 400px;
+  grid-template-rows: 50px 100px;
+  grid-auto-rows: 300px;
 }
