@@ -1,0 +1,16 @@
+body {
+  background: purple;
+  padding: 20px;
+}
+
+.item {
+  background: gold;
+  border: 2px solid goldenrod;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  display: grid;
+}
