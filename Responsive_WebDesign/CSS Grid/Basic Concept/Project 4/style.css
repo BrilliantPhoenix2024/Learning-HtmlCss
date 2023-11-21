@@ -13,8 +13,8 @@ body {
 
 .container {
   display: grid;
-  height: 600px;
   gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr auto 100px;
+  /* grid-template-columns: repeat(4, 1fr 2fr); */
+  /* grid-template-columns: repeat(4, 1fr auto); */
+  grid-template-columns: 100px repeat(2, 1fr auto) 200px repeat(2, 5fr);
 }
