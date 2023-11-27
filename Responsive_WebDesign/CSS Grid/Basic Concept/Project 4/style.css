@@ -3,7 +3,7 @@ body {
   padding: 20px;
 }
 
-.itm {
+.item {
   background: gold;
   border: 2px solid goldenrod;
   text-align: center;
@@ -14,17 +14,20 @@ body {
 .container {
   display: grid;
   gap: 20px;
-  height: 500px;
-  border: 5px solid green;
-  grid-template-columns: repeat(5, 130px);
-  /* grid-template-rows: repeat(5, 100px); */
-  /* justify-items: center;
-  align-items: center; */
-  place-items: stretch stretch;
-  justify-content: space-between;
-  align-content: center;
+  grid-template-columns: repeat(10, 1fr);
 }
 
-.item5 {
-  justify-self: center;
+.logo {
+  grid-column: span 2;
+  order: 2;
+}
+
+.nav {
+  grid-column: span 8;
+  order: 1;
+}
+
+.content {
+  grid-column: 1 / -1;
+  order: 3;
 }
