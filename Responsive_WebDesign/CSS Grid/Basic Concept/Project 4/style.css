@@ -3,24 +3,20 @@ body {
   padding: 20px;
 }
 
-.albums {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 20px;
+.item {
+  background: gold;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 5px;
+  margin: 10px;
+  text-align: center;
 }
 
-.album {
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+.flipper {
   display: grid;
-  grid-template-columns: 150px 1fr;
-  gap: 10px;
-  align-items: center;
-  color: white;
-  font-weight: 100;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 }
 
-.album_artwork {
-  width: 100%;
+.flipper.flip {
+  grid-template-columns: 1fr 1fr;
 }
