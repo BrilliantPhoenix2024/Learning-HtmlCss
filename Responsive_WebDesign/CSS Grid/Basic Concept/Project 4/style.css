@@ -3,20 +3,11 @@ body {
   padding: 20px;
 }
 
-.item {
-  background: gold;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 10px 5px;
-  margin: 10px;
-  text-align: center;
-}
-
-.flipper {
+.track{
+  background: wheat;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-}
-
-.flipper.flip {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-auto-flow: column;
 }
